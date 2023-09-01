@@ -1,10 +1,17 @@
+.user-portfolio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
 .projects-container {
   display: flex;
   flex-direction: column;
   gap: 1.875rem;
 }
 
-.projects-container .header {
+.projects-container .header,
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,4 +72,54 @@
 .projects-container .projects .project .more-info {
   display: flex;
   justify-content: space-between;
+}
+
+/* POSTS */
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.posts-container .post {
+  height: 12.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.875rem;
+}
+
+.posts-container .post img {
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.posts-container .post .info {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.posts-container .post .info .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.posts-container .post .info .title p {
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.posts-container .post .info .description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.posts-container .post .info .description .topics {
+  display: flex;
+  gap: 1rem;
 }
