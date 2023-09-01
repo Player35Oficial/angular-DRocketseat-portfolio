@@ -1,0 +1,68 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.projects-container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.875rem;
+  border-radius: 1.5rem;
+  width: 100%;
+  background-color: var(--bg-cards);
+}
+.projects-container .header a {
+  transition: 0.4s;
+}
+
+.projects-container .header a:hover {
+  color: #fff;
+}
+
+/* PROJECTS */
+.projects-container .projects {
+  display: flex;
+  gap: 1.875rem;
+}
+
+.projects-container .projects .project {
+  display: flex;
+  flex-direction: column;
+  height: 11.25rem;
+  flex: 1;
+  background-color: var(--bg-cards);
+  border-radius: 1.25rem;
+  padding: 1.875rem;
+  gap: 1.125rem;
+  justify-content: space-between;
+}
+
+.projects-container .projects .project .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.projects-container .projects .project .info h3 {
+  display: flex;
+  gap: 1rem;
+}
+
+.projects-container .projects .project .more-info {
+  display: flex;
+}
+
+.projects-container .projects .project .more-info .details {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.projects-container .projects .project .more-info .details fa-icon {
+  font-weight: 800;
+}
+
+.projects-container .projects .project .more-info {
+  display: flex;
+  justify-content: space-between;
+}

@@ -38,6 +38,10 @@ app-user-cards,
 app-user-portfolio {
   display: flex;
 }
+
+app-user-portfolio {
+  width: 100%;
+}
 .user-cards-container {
   display: flex;
   flex-direction: column;

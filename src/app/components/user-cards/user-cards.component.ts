@@ -24,4 +24,40 @@ export class UserCardsComponent {
   faEnvelope = faEnvelope;
   faBriefcase = faBriefcase;
   faLocationDot = faLocationDot;
+
+  tecnologias = [
+    'Javascript',
+    'ReactJS',
+    'NodeJS',
+    'Git',
+    'Github',
+    'CSS',
+    'Angular',
+  ];
+
+  experiencias = [
+    {
+      company: 'Centro Universitário Adventista de São Paulo (UNASP-SP) ',
+      period: '2022 - Atualmente',
+      position: 'Desenvolvedor Freelance',
+    },
+    {
+      company: 'SENAI "Ary Torres" ',
+      period: '2021 - 2023',
+      position: 'Jovem Aprendiz',
+    },
+  ];
+
+  educacao = [
+    {
+      school: 'Centro Universitário Adventista de São Paulo (UNASP-SP)',
+      period: '2022 - 2024',
+      course: 'Análise e Desenvolvimento de Sistemas',
+    },
+    {
+      school: 'SENAI "Ary Torres"',
+      period: '2021 - 2023',
+      course: 'Técnico em Eletroeletrônica',
+    },
+  ];
 }

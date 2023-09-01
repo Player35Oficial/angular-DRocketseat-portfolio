@@ -2,12 +2,13 @@
   <div class="card profile">
     <img src="../../../assets/profile-pic.png" alt="" />
     <div>
-      <p>Yuri G. Santana</p>
+      <h1>Yuri G. Santana</h1>
       <span>Javascript Developer</span>
     </div>
   </div>
 
   <div class="card">
+    <!-- Tentar usar um array de objetos para encurtar o HTML -->
     <ul class="links-list">
       <li>
         <a href="">
@@ -50,6 +51,36 @@
           <fa-icon [icon]="faEnvelope"></fa-icon>
           <p>yuri.dev35@gmail.com</p>
         </a>
+      </li>
+    </ul>
+  </div>
+  <div class="card techs">
+    <h2>Tecnologias</h2>
+    <ul class="tech-list">
+      <li class="tech-item" *ngFor="let tecnologia of tecnologias">
+        {{ tecnologia.toUpperCase() }}
+      </li>
+    </ul>
+  </div>
+
+  <div class="card exps">
+    <h2>Experiências</h2>
+    <ul class="exp-list">
+      <li class="exp-item" *ngFor="let experiencia of experiencias">
+        <p class="company">{{ experiencia.company }}</p>
+        <p class="period">{{ experiencia.period }}</p>
+        <p class="position">{{ experiencia.position }}</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="card exps">
+    <h2>Educação</h2>
+    <ul class="exp-list">
+      <li class="exp-item" *ngFor="let course of educacao">
+        <p class="company">{{ course.school }}</p>
+        <p class="period">{{ course.period }}</p>
+        <p class="position">{{ course.course }}</p>
       </li>
     </ul>
   </div>
