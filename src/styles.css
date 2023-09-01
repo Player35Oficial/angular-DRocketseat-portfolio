@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Merriweather Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--bg-cards);
+  border-radius: 1.25rem;
+}
+
+app-root {
+  display: flex;
+  padding: 40px;
+  gap: 3.75rem;
+}
+
+app-user-cards,
+app-user-portfolio {
+  display: flex;
+}
+.user-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  flex: 1;
+  width: 24.375rem;
+}
+
+.user-portfolio-container {
+  flex: 2;
+}

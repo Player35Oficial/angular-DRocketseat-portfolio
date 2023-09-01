@@ -1,0 +1,48 @@
+.card.profile img {
+  height: 129px;
+  border: 1px solid #00ff00;
+  border-radius: 50%;
+}
+
+.card.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 18.125rem;
+  gap: 1.875rem;
+  position: relative;
+}
+
+.card.profile div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.625rem;
+}
+
+.card .links-list {
+  list-style: none;
+  padding: 1.875rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.card .links-list li a {
+  display: flex;
+  gap: 1.25rem;
+  transition: 0.2s;
+}
+
+.card .links-list li a:hover {
+  color: #fefefe;
+}
+
+.card .links-list li a fa-icon {
+  display: flex;
+  width: 1.5rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
