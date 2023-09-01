@@ -21,6 +21,7 @@ a {
 body {
   background-color: var(--body-bg-color);
   color: var(--text-color);
+  height: min-content;
 }
 
 .card {
